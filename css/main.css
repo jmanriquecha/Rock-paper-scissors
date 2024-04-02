@@ -78,6 +78,7 @@ input {
 
 footer {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -87,4 +88,20 @@ footer {
     background-color: #111;
     position: static;
     bottom: 0;
+}
+
+footer a {
+    display: inline;
+    color: #ddd;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.contador {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
