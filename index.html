@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Piedra 💎, Papel 📋 y Tijera ✂</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>Piedra, Papel ó Tijera</h1>
+                <p><small>Juego</small></p>
+            </header>
+            <main>
+                <div class="op">
+                    <input type="radio" name="option" id="piedra" value="1">Piedra 💎
+                    <input type="radio" name="option" id="papel" value="2">Papel 📋
+                    <input type="radio" name="option" id="tijera" value="3">Tijera ✂
+                </div>
+                <br>
+                <div class="result" id="result">
+                    <h1 id="msg"></h1>
+                    <div class="result-player">
+                        <div class="player">
+                            <h1 id="tuH1"></h1>
+                            <img id="tu">
+                        </div>
+                        <div class="player">
+                            <h1 id="pcH1"></h1>
+                            <img id="pc">
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                Todos los derechos reservados &copy 2024 | powered by: Jorge Manrique
+            </footer>
+        </div>
+
+        <!-- JS -->
+        <script src="./js/rockPaperScissors.js" defer></script>
+    </body>
+
+</html>
